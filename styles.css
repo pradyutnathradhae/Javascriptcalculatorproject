@@ -3,19 +3,23 @@ body{
   background-color: #cf455c;
 }
 #container{
-  width:1000px;
-  height:550px;
-  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0, 0, 0, 0.3)),url(background.jpg);
-  margin: 20px auto;
+  background-image: url('background.jpg');
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+  width:90%;
+  height:98%;
+  margin: 10px auto;
 }
 #calculator{
-  width:400px;
-  height: 650px;
+  width:30%;
+  height: 20%;
   background-color: #eaedef;
-  margin:0px auto;
-  top:20px;
+  margin:0 auto;
+  top:5px;
+  bottom: 5px;
   position: relative;
-  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2),0 8px 20px 3px rgba(211,116,132,0.19);
+  box-shadow: 0 6px 8px 0 rgba(165, 55, 253, 1),0 8px 20px 3px rgba(211,116,132,3.19);
 }
 #result{
   height: 150px;
